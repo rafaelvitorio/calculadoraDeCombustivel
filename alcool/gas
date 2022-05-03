@@ -1,0 +1,19 @@
+alert("!!!!Aplicativo calculadora de combustível!!!")
+var gasolina 
+var alcool
+do {
+ gasolina = prompt ("qual o valor da gasolina")
+ alcool = prompt ("qual o valor da alcool")
+
+ if (alcool < 0.7 * gasolina){
+        alert ("alcool é mais vantajoso")}
+  
+  else if (alcool > 0.7 * gasolina) {
+        alert ("gasolina é mais vantajoso")}
+    
+  else {(alcool == 0.7 * gasolina) 
+     alert ("tanto faz")}
+
+continuar = prompt ("deseja fazer nova pesquisa: 1 sim 2 não") 
+}                    
+while (continuar == 1) alert ("Muito Obrigado por utilizar o aplicativo!")
